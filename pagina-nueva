@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MI PAGINA PERSONAL</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="principio">Mi
+            <strong>primera página </strong>en
+            <em>HTML</em>
+        </h1>
+    </header>
+    <h2>EsTo es LA CaBrA de
+        <strong>ESPAÑA</strong>
+    </h2>
+    <section id="foto">
+        <div>
+            <img src="./imagen/cabra.jpg" title="esto es una cabra loca" alt="esto es una cabra" />
+        </div>
+    </section>
+    <hr>
+    <article>
+    
+    </article>
+    <hr>
+    <a href="http://www.google.es">Google</a>
+    <hr>
+
+    <form>
+        <label>Nombre: </label>
+        <input type="text" name="nombre" placeholder="Nombre" />
+        <br>
+        <label>Apellidos: </label>
+        <input type="text" name="apellidos" placeholder="Apellidos" />
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    </article>
+    <footer>
+        <p>copyright@2019
+            <a href="#principio">al principio de la pagina</a>
+        </p>
+    </footer>
+</body>
+
+</html>
